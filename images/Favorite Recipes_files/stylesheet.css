@@ -17,9 +17,10 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    left: 30%;
+    left: 50%;
     padding: 1%;
     border-bottom: 10px;
+    background-color: blue;
 }
 
 ul {
@@ -29,8 +30,12 @@ ul {
     left: 30%;
     list-style: circle;
 }
-.header img  {
+.headerimg img  {
+    background-color: red;
+    flex: 1px;
     height: 50px;
     width: auto;
+    left: 50%;
+    align-items: top;
     size: 30px;
 }
