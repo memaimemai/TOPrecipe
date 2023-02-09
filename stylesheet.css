@@ -1,6 +1,9 @@
+
 a {
     color: whitesmoke;
     text-decoration: none;
+    position: relative;
+    left: 30%;
 }
 a:hover {
     color: red;
@@ -12,7 +15,6 @@ body {
     background-color: rgb(51, 51, 51);
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
-    left: 30%;
 }
 .header {
     position: relative;
@@ -22,24 +24,9 @@ body {
     padding: 1%;
     border-bottom: 10px;
 }
-
-ul {
-    list-style: circle;
-}
-.header img  {
-    height: 50px;
-    width: auto;
-    size: 30px;
-}
-
-.header,
-ul,
-ol,
-p,
-h1,
-h2 {
+.header img {
     position: relative;
-    width: 100%;
-    height: auto;
     left: 30%;
+    width: 400px;
+    height: auto;
 }
