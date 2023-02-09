@@ -3,7 +3,7 @@ a {
     color: whitesmoke;
     text-decoration: none;
     position: relative;
-    left: 30%;
+    left: 0%;
 }
 a:hover {
     color: red;
@@ -15,18 +15,31 @@ body {
     background-color: rgb(51, 51, 51);
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside;
+  
+    display: grid;
+    
 }
 .header {
     position: relative;
     width: 100%;
     height: auto;
-    left: 30%;
+    left: 0%;
     padding: 1%;
-    border-bottom: 10px;
+    border-bottom: 0px;
+}
+
+img {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    border-radius: 20%;
 }
 .header img {
-    position: relative;
-    left: 30%;
-    width: 400px;
+    left: 0;
+    width: 200px;
     height: auto;
 }
+
+
+
