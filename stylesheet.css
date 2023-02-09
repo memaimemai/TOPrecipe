@@ -12,6 +12,7 @@ body {
     background-color: rgb(51, 51, 51);
     color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    left: 30%;
 }
 .header {
     position: relative;
@@ -23,14 +24,22 @@ body {
 }
 
 ul {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 30%;
     list-style: circle;
 }
 .header img  {
     height: 50px;
     width: auto;
     size: 30px;
+}
+
+.header,
+ul,
+ol,
+p,
+h1,
+h2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 30%;
 }
